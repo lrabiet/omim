@@ -21,4 +21,4 @@ before_script:
 
 script: 
   #connectedAndroidTest
-  - ./gradlew clean assembleWebRelease
+  - cd android/ && ./gradlew clean assembleWebRelease
